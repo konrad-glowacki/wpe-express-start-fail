@@ -1,0 +1,17 @@
+{
+  "name": "wpe-express-simple-2",
+  "repo": "konrad-glowacki/wpe-express-simple",
+  "environments": [
+    {
+      "name": "development",
+      "branch": "main",
+      "wp_environment_name": "kongloheaddev",
+      "secrets": [
+        {
+          "key": "PORT",
+          "value": "7070"
+        }
+      ]
+    }
+  ]
+}
